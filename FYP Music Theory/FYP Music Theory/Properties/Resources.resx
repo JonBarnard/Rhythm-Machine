@@ -1,0 +1,1372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CCCC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCCC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCCC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCCC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCCC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCCC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CCCQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCCQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCCQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCCQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCCQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCCQQ_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCCQQ_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CCDCQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCDCQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCDCQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCDCQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCDCQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCDCQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCDCQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCDCQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCDCQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCDCQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCDCQ_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCDCQ_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CCM_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCM_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCM_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCM_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCM_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCM_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCM_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCM_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCM_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCM_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCM_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCM_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CCQQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCQQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCQQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCQQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCQQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCQQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCQQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCQQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCQQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCQQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCQQC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCQQC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CCRQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCRQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCRQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCRQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCRQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCRQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCRQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCRQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCRQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCRQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CCRQQ_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CCRQQ_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CDCQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDCQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDCQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDCQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDCQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDCQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDCQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDCQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDCQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDCQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDCQC_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDCQC_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CDM_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDM_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDM_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDM_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDM_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDM_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDM_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDM_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDM_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDM_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CDM_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDM_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CMC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CMC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CMC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CMC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CMC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CMC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CMC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CMC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CMC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CMC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CMC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CMC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CQQCC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQCC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQCC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQCC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQCC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQCC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CQQCQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQCQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQCQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQCQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQCQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQCQQ_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQCQQ_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CQQM_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQM_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQM_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQM_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQM_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQM_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQM_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQM_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQM_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQM_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQM_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQM_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CQQQQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQQQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQQQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQQQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQQQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQQQC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CQQQQQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQQQQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQQQQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQQQQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQQQQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQQQQQ_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQQQQQ_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CQQRC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQRC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQRC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQRC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQRC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQRC_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRC_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CQQRQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQRQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQRQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQRQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQRQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CQQRQQ_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CQQRQQ_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CRDCQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRDCQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRDCQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRDCQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRDCQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRDCQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRDCQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRDCQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRDCQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRDCQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRDCQ_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRDCQ_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CRQQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRQQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRQQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRQQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRQQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRQQC_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQC_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CRQQQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRQQQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRQQQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRQQQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRQQQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRQQQQ_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRQQQQ_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CRRQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRRQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRRQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRRQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRRQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRRQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRRQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRRQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRRQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRRQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CRRQQ_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CRRQQ_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CSSSSSSSSC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CSSSSSSSSC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CSSSSSSSSC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CSSSSSSSSC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CSSSSSSSSC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CSSSSSSSSC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CSSSSSSSSC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CSSSSSSSSC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CSSSSSSSSC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CSSSSSSSSC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CSSSSSSSSC_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CSSSSSSSSC_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DCQCC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCC_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCC_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DCQCQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCQQ_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCQQ_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DCQCR_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCR_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCR_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCR_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCR_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCR_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCR_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCR_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCR_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCR_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQCR_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQCR_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DCQM_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQM_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQM_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQM_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQM_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQM_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQM_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQM_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQM_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQM_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQM_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQM_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DCQQQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQQQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQQQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQQQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQQQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQQQC_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQC_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DCQQQQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQQQQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQQQQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQQQQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQQQQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DCQQQQQ_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DCQQQQQ_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DMC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMC_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMC_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DMQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DMQQ_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DMQQ_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DQSDQSQQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSDQSQQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DQSDQSQQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSDQSQQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DQSDQSQQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSDQSQQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DQSDQSQQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSDQSQQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DQSDQSQQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSDQSQQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DQSDQSQQC_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSDQSQQC_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DQSSSSSSSSSDQS_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSSSSSSSSSDQS_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DQSSSSSSSSSDQS_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSSSSSSSSSDQS_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DQSSSSSSSSSDQS_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSSSSSSSSSDQS_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DQSSSSSSSSSDQS_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSSSSSSSSSDQS_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DQSSSSSSSSSDQS_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSSSSSSSSSDQS_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DQSSSSSSSSSDQS_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DQSSSSSSSSSDQS_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goldstar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goldstar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MCC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MCC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MCC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MCC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MCC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MCC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MCC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MCC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MCC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MCC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MCC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MCC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MM_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MM_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MM_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MM_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MM_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MM_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MM_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MM_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MM_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MM_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MM_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MM_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MQQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MQQQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQQQ_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQQQ_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MQQR_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQR_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQR_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQR_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQR_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQR_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQR_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQR_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQR_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQR_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MQQR_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MQQR_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQCCC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCCC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCCC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCCC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCCC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCCC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQCCQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCCQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCCQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCCQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCCQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCCQQ_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCCQQ_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQCM_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCM_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCM_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCM_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCM_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCM_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCM_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCM_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCM_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCM_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCM_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCM_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQCQQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQCQQQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQQQ_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQQQ_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQCQQR_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQR_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQR_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQR_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQR_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQR_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQR_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQR_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQR_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQR_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQCQQR_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQCQQR_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQDCQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDCQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQDCQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDCQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQDCQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDCQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQDCQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDCQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQDCQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDCQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQDCQC_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDCQC_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQDM_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDM_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQDM_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDM_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQDM_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDM_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQDM_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDM_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQDM_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDM_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQDM_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQDM_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQMC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQMC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQMC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQMC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQMC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQMC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQMC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQMC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQMC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQMC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQMC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQMC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQQQCQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQCQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQCQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQCQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQCQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQCQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQCQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQCQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQCQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQCQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQCQQ_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQCQQ_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQQQDCQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQDCQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQDCQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQDCQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQDCQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQDCQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQDCQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQDCQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQDCQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQDCQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQDCQ_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQDCQ_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQQQM_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQM_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQM_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQM_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQM_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQM_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQM_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQM_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQM_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQM_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQM_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQM_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQQQQQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQC_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQC_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQQQQQQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQQQ_Easy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQQQ_Easy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQQQQQR_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQR_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQR_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQR_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQR_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQR_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQR_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQR_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQR_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQR_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQQQR_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQQQR_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQQQRQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQRQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQRQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQRQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQRQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQRQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQRQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQRQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQRQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQRQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQQQRQQ_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQQQRQQ_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQRM_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRM_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRM_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRM_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRM_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRM_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRM_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRM_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRM_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRM_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRM_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRM_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQRQQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRQQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRQQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRQQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRQQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRQQC_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQC_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQRQQQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRQQQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRQQQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRQQQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRQQQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRQQQQ_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRQQQQ_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQRRC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRRC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRRC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRRC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRRC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRRC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRRC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRRC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRRC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRRC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQRRC_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQRRC_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQSSQQQQSS_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSQQQQSS_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSQQQQSS_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSQQQQSS_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSQQQQSS_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSQQQQSS_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSQQQQSS_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSQQQQSS_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSQQQQSS_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSQQQQSS_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSQQQQSS_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSQQQQSS_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQSSSSQQSSSS_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSQQSSSS_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSSSQQSSSS_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSQQSSSS_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSSSQQSSSS_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSQQSSSS_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSSSQQSSSS_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSQQSSSS_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSSSQQSSSS_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSQQSSSS_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSSSQQSSSS_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSQQSSSS_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QQSSSSSSSSQQ_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSSSSSQQ_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSSSSSSSQQ_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSSSSSQQ_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSSSSSSSQQ_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSSSSSQQ_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSSSSSSSQQ_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSSSSSQQ_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSSSSSSSQQ_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSSSSSQQ_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QQSSSSSSSSQQ_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQSSSSSSSSQQ_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QSSQQSSQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QSSQQSSQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QSSQQSSQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QSSQQSSQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QSSQQSSQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QSSQQSSQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QSSQQSSQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QSSQQSSQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QSSQQSSQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QSSQQSSQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="QSSQQSSQC_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QSSQQSSQC_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RDCQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDCQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RDCQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDCQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RDCQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDCQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RDCQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDCQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RDCQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDCQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RDCQC_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RDCQC_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="silverstar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\silverstar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSQCSSSSQSS_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQCSSSSQSS_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSQCSSSSQSS_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQCSSSSQSS_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSQCSSSSQSS_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQCSSSSQSS_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSQCSSSSQSS_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQCSSSSQSS_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSQCSSSSQSS_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQCSSSSQSS_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSQCSSSSQSS_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQCSSSSQSS_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSQSSQQSSQSS_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQSSQQSSQSS_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSQSSQQSSQSS_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQSSQQSSQSS_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSQSSQQSSQSS_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQSSQQSSQSS_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSQSSQQSSQSS_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQSSQQSSQSS_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSQSSQQSSQSS_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQSSQQSSQSS_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSQSSQQSSQSS_Hard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSQSSQQSSQSS_Hard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSSSCQQSSSS_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSCQQSSSS_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSCQQSSSS_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSCQQSSSS_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSCQQSSSS_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSCQQSSSS_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSCQQSSSS_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSCQQSSSS_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSCQQSSSS_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSCQQSSSS_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSCQQSSSS_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSCQQSSSS_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSSSQQSSSSC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSQQSSSSC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSQQSSSSC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSQQSSSSC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSQQSSSSC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSQQSSSSC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSQQSSSSC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSQQSSSSC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSQQSSSSC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSQQSSSSC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSQQSSSSC_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSQQSSSSC_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSSSSSSSQQC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSQQC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSQQC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSQQC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSQQC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSQQC_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQC_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSSSSSSSQQSSSS_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQSSSS_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSQQSSSS_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQSSSS_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSQQSSSS_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQSSSS_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSQQSSSS_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQSSSS_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSQQSSSS_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQSSSS_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSQQSSSS_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSQQSSSS-Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSSSSSSSSSSSC_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSC_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSSSSSC_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSC_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSSSSSC_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSC_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSSSSSC_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSC_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSSSSSC_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSC_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSSSSSC_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSC_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SSSSSSSSSSSSSSSS_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSSSSS_100.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSSSSSSSSS_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSSSSS_120.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSSSSSSSSS_140" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSSSSS_140.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSSSSSSSSS_160" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSSSSS_160.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSSSSSSSSS_80" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSSSSS_80.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SSSSSSSSSSSSSSSS_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SSSSSSSSSSSSSSSS_Medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

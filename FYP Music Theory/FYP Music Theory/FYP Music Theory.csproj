@@ -1,0 +1,1389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00F6D3EC-DCA8-4EF6-9BCE-74B011AB2884}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FYP_Music_Theory</RootNamespace>
+    <AssemblyName>FYP Music Theory</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NAudio">
+      <HintPath>..\packages\NAudio.1.7.3\lib\net35\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Domain\Bank.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\EventUtility.cs" />
+    <Compile Include="Utilities\FisherYatesShuffle.cs" />
+    <Compile Include="AudioPlayer\IAudioPlayer.cs" />
+    <Compile Include="Domain\IGame.cs" />
+    <Compile Include="Utilities\ImageUtilities.cs" />
+    <Compile Include="Utilities\IProgressable.cs" />
+    <Compile Include="Utilities\IShuffler.cs" />
+    <Compile Include="Domain\Question.cs" />
+    <Compile Include="AudioPlayer\Mp3Player.cs" />
+    <Compile Include="Domain\Score.cs" />
+    <Compile Include="View\CoinGenerator.cs" />
+    <Compile Include="View\ScoreWindow.xaml.cs">
+      <DependentUpon>ScoreWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\StreamUtilities.cs" />
+    <Compile Include="View\SplashScreen.xaml.cs">
+      <DependentUpon>SplashScreen.xaml</DependentUpon>
+    </Compile>
+    <Page Include="View\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Domain\Audio.cs" />
+    <Compile Include="Domain\Difficulty.cs" />
+    <Compile Include="Domain\Game.cs" />
+    <Compile Include="View\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\ScoreWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SplashScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Domain\Phrase.cs" />
+    <Compile Include="Utilities\PhraseMaker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\duck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCQQ_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCDCQ_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCM_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCQQC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCRQQ_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDCQC_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDM_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CMC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCQQ_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQM_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQQQ_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRC_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRQQ_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRDCQ_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQC_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQQQ_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRRQQ_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSSSSSSSSC_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCC_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCQQ_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCR_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQM_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQC_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQQQ_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMC_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMQQ_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSDQSQQC_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSSSSSSSSSDQS_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MCC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MM_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQQQ_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQR_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCQQ_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCM_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQQQ_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQR_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDCQC_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDM_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQMC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQCQQ_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQDCQ_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQM_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQC_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQQQ_Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQR_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQRQQ_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRM_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQC_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQQQ_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRRC_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSQQQQSS_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSQQSSSS_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSSSSSQQ_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QSSQQSSQC_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDCQC_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQCSSSSQSS_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQSSQQSSQSS_Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSCQQSSSS_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSQQSSSSC_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQC_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQSSSS-Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSC_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSSSSS_Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCCQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCDCQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCDCQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCDCQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCDCQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCDCQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCM_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCM_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCM_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCM_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCM_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCQQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCQQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCQQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCQQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCQQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCRQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCRQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCRQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCRQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CCRQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDCQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDCQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDCQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDCQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDCQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDM_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDM_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDM_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDM_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CDM_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CMC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CMC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CMC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CMC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CMC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQCQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQM_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQM_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQM_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQM_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQM_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQQQQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CQQRQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRDCQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRDCQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRDCQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRDCQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRDCQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRQQQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRRQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRRQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRRQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRRQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CRRQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSSSSSSSSC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSSSSSSSSC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSSSSSSSSC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSSSSSSSSC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CSSSSSSSSC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCR_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCR_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCR_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCR_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQCR_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQM_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQM_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQM_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQM_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQM_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCQQQQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSDQSQQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSDQSQQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSDQSQQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSDQSQQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSDQSQQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSSSSSSSSSDQS_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSSSSSSSSSDQS_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSSSSSSSSSDQS_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSSSSSSSSSDQS_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DQSSSSSSSSSDQS_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MCC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MCC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MCC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MCC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MCC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MM_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MM_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MM_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MM_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MM_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQR_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQR_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQR_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQR_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MQQR_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCCQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCM_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCM_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCM_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCM_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCM_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQR_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQR_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQR_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQR_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQCQQR_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDCQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDCQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDCQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDCQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDCQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDM_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDM_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDM_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDM_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQDM_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQMC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQMC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQMC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQMC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQMC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQCQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQCQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQCQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQCQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQCQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQDCQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQDCQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQDCQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQDCQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQDCQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQM_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQM_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQM_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQM_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQM_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQR_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQR_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQR_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQR_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQQQR_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQRQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQRQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQRQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQRQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQQQRQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRM_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRM_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRM_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRM_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRM_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRQQQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRRC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRRC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRRC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRRC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQRRC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSQQQQSS_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSQQQQSS_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSQQQQSS_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSQQQQSS_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSQQQQSS_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSQQSSSS_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSQQSSSS_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSQQSSSS_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSQQSSSS_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSQQSSSS_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSSSSSQQ_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSSSSSQQ_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSSSSSQQ_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSSSSSQQ_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQSSSSSSSSQQ_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QSSQQSSQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QSSQQSSQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QSSQQSSQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QSSQQSSQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QSSQQSSQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDCQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDCQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDCQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDCQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RDCQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQCSSSSQSS_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQCSSSSQSS_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQCSSSSQSS_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQCSSSSQSS_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQCSSSSQSS_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQSSQQSSQSS_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQSSQQSSQSS_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQSSQQSSQSS_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQSSQQSSQSS_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSQSSQQSSQSS_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSCQQSSSS_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSCQQSSSS_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSCQQSSSS_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSCQQSSSS_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSCQQSSSS_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSQQSSSSC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSQQSSSSC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSQQSSSSC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSQQSSSSC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSQQSSSSC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQSSSS_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQSSSS_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQSSSS_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQSSSS_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSQQSSSS_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSC_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSC_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSC_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSC_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSC_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSSSSS_80.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSSSSS_100.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSSSSS_120.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSSSSS_140.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SSSSSSSSSSSSSSSS_160.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\goldstar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\silverstar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

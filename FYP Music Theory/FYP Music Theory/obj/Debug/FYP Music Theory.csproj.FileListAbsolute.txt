@@ -1,0 +1,33 @@
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\bin\Debug\FYP Music Theory.exe.config
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\bin\Debug\FYP Music Theory.exe
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\bin\Debug\FYP Music Theory.pdb
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\bin\Debug\NAudio.dll
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\bin\Debug\NAudio.xml
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\View\MainWindow.baml
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\View\ScoreWindow.baml
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\View\MainWindow.g.cs
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\View\ScoreWindow.g.cs
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\App.g.cs
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory_MarkupCompile.cache
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory.g.resources
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\FYP_Music_Theory.Properties.Resources.resources
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory.csproj.GenerateResource.Cache
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory.exe
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory.pdb
+C:\Users\Jon\Downloads\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory.csprojResolveAssemblyReference.cache
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\bin\Debug\FYP Music Theory.exe.config
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory.exe
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory.pdb
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\bin\Debug\FYP Music Theory.exe
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\bin\Debug\FYP Music Theory.pdb
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\bin\Debug\NAudio.dll
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\bin\Debug\NAudio.xml
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\View\MainWindow.baml
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\View\ScoreWindow.baml
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\View\MainWindow.g.cs
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\View\ScoreWindow.g.cs
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\App.g.cs
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory_MarkupCompile.cache
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory.g.resources
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\FYP_Music_Theory.Properties.Resources.resources
+D:\Ed\Desktop\FYP Music Theory\FYP Music Theory\obj\Debug\FYP Music Theory.csproj.GenerateResource.Cache
